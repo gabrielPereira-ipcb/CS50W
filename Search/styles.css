@@ -1,0 +1,121 @@
+.google_links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.google_link {
+    margin: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.central_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background:#fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(600px + 6px);
+    width: 564px;
+    max-width: 600px;
+    margin-top: 25px;
+}
+
+.button {
+    
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+
+.appbar {
+    font-size: 40px;
+    color: #d93025;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #000;
+    margin: 0;
+    padding: 0;
+}
+
+.p-find {
+    font-size: 16px;
+    color: #333333;
+    
+}
+
+.div-find{
+    margin: 25px 35px;
+    font-size: 16px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 200px;
+}
+.right {
+    width: 400px;
+}
+
+.btn-advenced {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn-find {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    width: 50%;
+
+}
