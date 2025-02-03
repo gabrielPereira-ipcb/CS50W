@@ -1,3 +1,8 @@
+body {
+    background-color: #202124;
+}
+
+
 .google_links {
     list-style: none;
     display: flex;
@@ -11,15 +16,15 @@
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: rgb(120, 165, 248);
 }
 
-a:hover {
+/* a:hover {
     text-decoration: none;
     color: black;
 }
@@ -27,12 +32,22 @@ a:hover {
 a:active {
     text-decoration: none;
     color: black;
+} */
+
+.text_under_logo {
+    color:#4487f6;
+    font:16px/16px Arial,sans-serif;
+
 }
+
 
 .central_div {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
+    
 }
 
 .input {
@@ -84,7 +99,7 @@ a:active {
 
 .p-find {
     font-size: 16px;
-    color: #333333;
+    color: #e8eaed;
     
 }
 
@@ -100,6 +115,7 @@ a:active {
 
 .left {
     width: 200px;
+    color: #969ba1;
 }
 .right {
     width: 400px;
