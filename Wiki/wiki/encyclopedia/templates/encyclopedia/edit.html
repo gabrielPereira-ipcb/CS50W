@@ -9,6 +9,14 @@
 {% block body %}
     <h1>{{title}}</h1>
 
+    <form action="{% url 'save' %}" method="post">
+        {% csrf_token %}
+        <textarea name="content" rows="10" cols="60">{{content}}</textarea><br>
+        <input type="hidden" name="edited" value="True">
+        <input type="hidden" name="title" value="{{title}}">
+        <input type="submit" value="Save">
+    </form>
+
 
 
     

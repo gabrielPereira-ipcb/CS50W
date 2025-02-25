@@ -6,7 +6,10 @@
 
 {% block body %}
     
-
-    {{ content|safe }}
+    <a href="{% url 'edit' title %}">Edit</a>
+    <div class = "entry">
+        {{ content|safe }}
+    </div>
+    
 
 {% endblock %}
